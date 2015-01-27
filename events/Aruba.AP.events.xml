@@ -18,49 +18,49 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrUnsecureApDetected</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrUnsecureApDetected</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an Unsecure Access Point is detected
-			by an Air Monitor located at wlsrLocation on channel 
-			wlsrCurrentChannel. The AP is declared unsecure, because we 
-			matched it to the wlsrMatchedMac/wlsrMatchedIp.
+            This trap indicates that an Unsecure Access Point is detected
+            by an Air Monitor located at wlsrLocation on channel
+            wlsrCurrentChannel. The AP is declared unsecure, because we
+            matched it to the wlsrMatchedMac/wlsrMatchedIp.
 
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrMatchedMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrMatchedMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrMatchedIp&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#6]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrMatchedIp&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#6]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrRogueInfoURL&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#7]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrRogueInfoURL&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#7]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrUnsecureApDetected trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrLocation=%parm[#3]%
-	wlsrCurrentChannel=%parm[#4]%
-	wlsrMatchedMac=%parm[#5]%
-	wlsrMatchedIp=%parm[#6]%
-	wlsrRogueInfoURL=%parm[#7]%&lt;/p&gt;</logmsg>
+            wlsrUnsecureApDetected trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrLocation=%parm[#3]%
+            wlsrCurrentChannel=%parm[#4]%
+            wlsrMatchedMac=%parm[#5]%
+            wlsrMatchedIp=%parm[#6]%
+            wlsrRogueInfoURL=%parm[#7]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -81,21 +81,21 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrStaImpersonation</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrStaImpersonation</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an AM at location wlsrLocation detected
-			a Station impersonation.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AM at location wlsrLocation detected
+            a Station impersonation.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrStaImpersonation trap received
-	wlsrNodeMac=%parm[#1]%
-	wlsrLocation=%parm[#2]%&lt;/p&gt;</logmsg>
+            wlsrStaImpersonation trap received
+            wlsrNodeMac=%parm[#1]%
+            wlsrLocation=%parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -116,32 +116,32 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrReservedChannelViolation</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrReservedChannelViolation</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an Access Point is detected
-			by an AP at location wlsrLocation, which
-			violates the Reserved Channel configuration.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an Access Point is detected
+            by an AP at location wlsrLocation, which
+            violates the Reserved Channel configuration.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrReservedChannelViolation trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrLocation=%parm[#3]%
-	wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrReservedChannelViolation trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrLocation=%parm[#3]%
+            wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -162,31 +162,31 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrValidSSIDViolation</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrValidSSIDViolation</event-label>
         <descr>&lt;p&gt;
-		This trap indicates that an Access Point violating Valid SSID is 
-		detected by an AP at wlsrLocation.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an Access Point violating Valid SSID is
+            detected by an AP at wlsrLocation.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrValidSSIDViolation trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrLocation=%parm[#3]%
-	wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrValidSSIDViolation trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrLocation=%parm[#3]%
+            wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -207,31 +207,31 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrChannelMisconfiguration</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrChannelMisconfiguration</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an Access Point has a bad channel
-			configuration.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an Access Point has a bad channel
+            configuration.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrChannelMisconfiguration trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrLocation=%parm[#3]%
-	wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrChannelMisconfiguration trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrLocation=%parm[#3]%
+            wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -252,31 +252,31 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrOUIMisconfiguration</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrOUIMisconfiguration</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an Access Point has bad OUI
-			configuration.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an Access Point has bad OUI
+            configuration.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrOUIMisconfiguration trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrLocation=%parm[#3]%
-	wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrOUIMisconfiguration trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrLocation=%parm[#3]%
+            wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -297,31 +297,31 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrSSIDMisconfiguration</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrSSIDMisconfiguration</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an Access Point has bad SSID
-			configuration.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an Access Point has bad SSID
+            configuration.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrSSIDMisconfiguration trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrLocation=%parm[#3]%
-	wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrSSIDMisconfiguration trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrLocation=%parm[#3]%
+            wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -342,31 +342,31 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrShortPreableMisconfiguration</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrShortPreableMisconfiguration</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an Access Point has bad Short preamble
-			configuration.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an Access Point has bad Short preamble
+            configuration.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrShortPreableMisconfiguration trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrLocation=%parm[#3]%
-	wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrShortPreableMisconfiguration trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrLocation=%parm[#3]%
+            wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -387,31 +387,31 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrWPAMisconfiguration</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrWPAMisconfiguration</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an Access Point has bad WPA
-			configuration.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an Access Point has bad WPA
+            configuration.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrWPAMisconfiguration trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrLocation=%parm[#3]%
-	wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrWPAMisconfiguration trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrLocation=%parm[#3]%
+            wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -432,31 +432,31 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrAdhocNetworkDetected</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrAdhocNetworkDetected</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an AM has detected an Adhoc
-			network.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AM has detected an Adhoc
+            network.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrAdhocNetworkDetected trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrLocation=%parm[#3]%
-	wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrAdhocNetworkDetected trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrLocation=%parm[#3]%
+            wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -477,30 +477,30 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrStaPolicyViolation</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrStaPolicyViolation</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that a Valid Station policy is violated.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that a Valid Station policy is violated.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrStaPolicyViolation trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrNodeMac=%parm[#2]%
-	wlsrLocation=%parm[#3]%
-	wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrStaPolicyViolation trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrNodeMac=%parm[#2]%
+            wlsrLocation=%parm[#3]%
+            wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -521,30 +521,30 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrRepeatWEPIVViolation</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrRepeatWEPIVViolation</event-label>
         <descr>&lt;p&gt;
-		This trap indicates that an AP/AM detected a Repeat WEP-IV violation.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AP/AM detected a Repeat WEP-IV violation.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrRepeatWEPIVViolation trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrLocation=%parm[#3]%
-	wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrRepeatWEPIVViolation trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrLocation=%parm[#3]%
+            wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -565,30 +565,30 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrWeakWEPIVViolation</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrWeakWEPIVViolation</event-label>
         <descr>&lt;p&gt;
-		This trap indicates that an AP/AM detected a Weak WEP-IV violation.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AP/AM detected a Weak WEP-IV violation.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrWeakWEPIVViolation trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrLocation=%parm[#3]%
-	wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrWeakWEPIVViolation trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrLocation=%parm[#3]%
+            wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -609,22 +609,22 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrChannelInterferenceDetected</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrChannelInterferenceDetected</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an AM/AP located at 
-			wlsrLocation has detected a channel interference on
-			wlsrCurrentChannel.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AM/AP located at
+            wlsrLocation has detected a channel interference on
+            wlsrCurrentChannel.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrChannelInterferenceDetected trap received
-	wlsrLocation=%parm[#1]%
-	wlsrCurrentChannel=%parm[#2]%&lt;/p&gt;</logmsg>
+            wlsrChannelInterferenceDetected trap received
+            wlsrLocation=%parm[#1]%
+            wlsrCurrentChannel=%parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -645,32 +645,32 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrAPInterferenceDetected</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrAPInterferenceDetected</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an AM/AP located at 
-			wlsrLocation has detected an AP interference on
-			wlsrCurrentChannel.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AM/AP located at
+            wlsrLocation has detected an AP interference on
+            wlsrCurrentChannel.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrAPInterferenceDetected trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrLocation=%parm[#3]%
-	wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrAPInterferenceDetected trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrLocation=%parm[#3]%
+            wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -691,37 +691,37 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrStaInterferenceDetected</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrStaInterferenceDetected</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an AM/AP located at 
-			wlsrLocation has detected a Station interference on
-			wlsrCurrentChannel.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AM/AP located at
+            wlsrLocation has detected a Station interference on
+            wlsrCurrentChannel.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrStaInterferenceDetected trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrNodeMac=%parm[#3]%
-	wlsrLocation=%parm[#4]%
-	wlsrCurrentChannel=%parm[#5]%&lt;/p&gt;</logmsg>
+            wlsrStaInterferenceDetected trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrNodeMac=%parm[#3]%
+            wlsrLocation=%parm[#4]%
+            wlsrCurrentChannel=%parm[#5]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -742,32 +742,32 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrFrameRetryRateExceeded</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrFrameRetryRateExceeded</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an AM/AP located at 
-			wlsrLocation is reporting that an AP wlsrTargetApBSSID has exceeded
-			an upper threshold for Frame Retry Rate for AP wlsrTargetApBSSID.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AM/AP located at
+            wlsrLocation is reporting that an AP wlsrTargetApBSSID has exceeded
+            an upper threshold for Frame Retry Rate for AP wlsrTargetApBSSID.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrFrameRetryRateExceeded trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrLocation=%parm[#3]%
-	wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrFrameRetryRateExceeded trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrLocation=%parm[#3]%
+            wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -788,33 +788,33 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrFrameReceiveErrorRateExceeded</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrFrameReceiveErrorRateExceeded</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an AM/AP located at 
-			wlsrLocation is reporting that an AP wlsrTargetApBSSID has exceeded
-			an upper threshold for Frame Receive Error Rate for AP 
-			wlsrTargetApBSSID.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AM/AP located at
+            wlsrLocation is reporting that an AP wlsrTargetApBSSID has exceeded
+            an upper threshold for Frame Receive Error Rate for AP
+            wlsrTargetApBSSID.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrFrameReceiveErrorRateExceeded trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrTargetApChannel=%parm[#3]%
-	wlsrLocation=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrFrameReceiveErrorRateExceeded trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrTargetApChannel=%parm[#3]%
+            wlsrLocation=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -835,33 +835,33 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrFrameFragmentationRateExceeded</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrFrameFragmentationRateExceeded</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an AM/AP located at 
-			wlsrLocation is reporting that an AP wlsrTargetApBSSID has exceeded
-			an upper threshold for Frame Fragmentation Rate for AP 
-			wlsrTargetApBSSID.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AM/AP located at
+            wlsrLocation is reporting that an AP wlsrTargetApBSSID has exceeded
+            an upper threshold for Frame Fragmentation Rate for AP
+            wlsrTargetApBSSID.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrFrameFragmentationRateExceeded trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrTargetApChannel=%parm[#3]%
-	wlsrLocation=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrFrameFragmentationRateExceeded trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrTargetApChannel=%parm[#3]%
+            wlsrLocation=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -882,37 +882,37 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrFrameBandWidthRateExceeded</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrFrameBandWidthRateExceeded</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an AM/AP located at 
-			wlsrLocation is reporting that a station wlsrStaAddress has exceeded
-			the allocated Bandwidth rate. 
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AM/AP located at
+            wlsrLocation is reporting that a station wlsrStaAddress has exceeded
+            the allocated Bandwidth rate.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrFrameBandWidthRateExceeded trap received
-	wlsrNodeMac=%parm[#1]%
-	wlsrTargetApBSSID=%parm[#2]%
-	wlsrTargetApSSID=%parm[#3]%
-	wlsrLocation=%parm[#4]%
-	wlsrCurrentChannel=%parm[#5]%&lt;/p&gt;</logmsg>
+            wlsrFrameBandWidthRateExceeded trap received
+            wlsrNodeMac=%parm[#1]%
+            wlsrTargetApBSSID=%parm[#2]%
+            wlsrTargetApSSID=%parm[#3]%
+            wlsrLocation=%parm[#4]%
+            wlsrCurrentChannel=%parm[#5]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -933,37 +933,37 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrFrameLowSpeedRateExceeded</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrFrameLowSpeedRateExceeded</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an AM/AP located at 
-			wlsrLocation is reporting that a station wlsrStaAddress has exceeded
-			the Low speed rate. 
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AM/AP located at
+            wlsrLocation is reporting that a station wlsrStaAddress has exceeded
+            the Low speed rate.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrFrameLowSpeedRateExceeded trap received
-	wlsrNodeMac=%parm[#1]%
-	wlsrTargetApBSSID=%parm[#2]%
-	wlsrTargetApSSID=%parm[#3]%
-	wlsrLocation=%parm[#4]%
-	wlsrCurrentChannel=%parm[#5]%&lt;/p&gt;</logmsg>
+            wlsrFrameLowSpeedRateExceeded trap received
+            wlsrNodeMac=%parm[#1]%
+            wlsrTargetApBSSID=%parm[#2]%
+            wlsrTargetApSSID=%parm[#3]%
+            wlsrLocation=%parm[#4]%
+            wlsrCurrentChannel=%parm[#5]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -984,37 +984,37 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrFrameNonUnicastRateExceeded</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrFrameNonUnicastRateExceeded</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an AM/AP located at 
-			wlsrLocation is reporting that a station wlsrStaAddress has exceeded
-			the Non Unicast traffic rate. 
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AM/AP located at
+            wlsrLocation is reporting that a station wlsrStaAddress has exceeded
+            the Non Unicast traffic rate.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrFrameNonUnicastRateExceeded trap received
-	wlsrNodeMac=%parm[#1]%
-	wlsrTargetApBSSID=%parm[#2]%
-	wlsrTargetApSSID=%parm[#3]%
-	wlsrLocation=%parm[#4]%
-	wlsrCurrentChannel=%parm[#5]%&lt;/p&gt;</logmsg>
+            wlsrFrameNonUnicastRateExceeded trap received
+            wlsrNodeMac=%parm[#1]%
+            wlsrTargetApBSSID=%parm[#2]%
+            wlsrTargetApSSID=%parm[#3]%
+            wlsrLocation=%parm[#4]%
+            wlsrCurrentChannel=%parm[#5]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1035,32 +1035,32 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrLoadbalancingEnabled</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrLoadbalancingEnabled</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an AM/AP located at 
-			wlsrLocation is reporting that an AP with BSSID wlsrTargetApBSSID 
-			has enabled Load balancing.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AM/AP located at
+            wlsrLocation is reporting that an AP with BSSID wlsrTargetApBSSID
+            has enabled Load balancing.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrLoadbalancingEnabled trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrLocation=%parm[#3]%
-	wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrLoadbalancingEnabled trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrLocation=%parm[#3]%
+            wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1081,22 +1081,22 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrChannelFrameRetryRateExceeded</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrChannelFrameRetryRateExceeded</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an AM/AP located at 
-			wlsrLocation is reporting that it exceeded an upper threshold
-			for Frame Retry Rate. 
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AM/AP located at
+            wlsrLocation is reporting that it exceeded an upper threshold
+            for Frame Retry Rate.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrChannelFrameRetryRateExceeded trap received
-	wlsrLocation=%parm[#1]%
-	wlsrCurrentChannel=%parm[#2]%&lt;/p&gt;</logmsg>
+            wlsrChannelFrameRetryRateExceeded trap received
+            wlsrLocation=%parm[#1]%
+            wlsrCurrentChannel=%parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1117,22 +1117,22 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrChannelFrameFragmentationRateExceeded</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrChannelFrameFragmentationRateExceeded</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an AM/AP located at 
-			wlsrLocation is reporting that it exceeded an upper threshold
-			for Frame Fragmentation Rate. 
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AM/AP located at
+            wlsrLocation is reporting that it exceeded an upper threshold
+            for Frame Fragmentation Rate.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrChannelFrameFragmentationRateExceeded trap received
-	wlsrLocation=%parm[#1]%
-	wlsrCurrentChannel=%parm[#2]%&lt;/p&gt;</logmsg>
+            wlsrChannelFrameFragmentationRateExceeded trap received
+            wlsrLocation=%parm[#1]%
+            wlsrCurrentChannel=%parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1153,22 +1153,22 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrChannelFrameErrorRateExceeded</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrChannelFrameErrorRateExceeded</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an AM/AP located at 
-			wlsrLocation is reporting that it exceeded an upper threshold
-			for Frame Error Rate. 
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AM/AP located at
+            wlsrLocation is reporting that it exceeded an upper threshold
+            for Frame Error Rate.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrChannelFrameErrorRateExceeded trap received
-	wlsrLocation=%parm[#1]%
-	wlsrCurrentChannel=%parm[#2]%&lt;/p&gt;</logmsg>
+            wlsrChannelFrameErrorRateExceeded trap received
+            wlsrLocation=%parm[#1]%
+            wlsrCurrentChannel=%parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1189,30 +1189,30 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrSignatureMatch</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrSignatureMatch</event-label>
         <descr>&lt;p&gt;
-		This trap indicates that we detected a signature match.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that we detected a signature match.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrSignatureName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrSignatureName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrSourceMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrSourceMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrRSSI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrRSSI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrSignatureMatch trap received
-	wlsrSignatureName=%parm[#1]%
-	wlsrSourceMac=%parm[#2]%
-	wlsrRSSI=%parm[#3]%
-	wlsrLocation=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrSignatureMatch trap received
+            wlsrSignatureName=%parm[#1]%
+            wlsrSourceMac=%parm[#2]%
+            wlsrRSSI=%parm[#3]%
+            wlsrLocation=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1233,39 +1233,39 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrChannelRateAnomaly</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrChannelRateAnomaly</event-label>
         <descr>&lt;p&gt;
-		This trap indicates that an AP/AM at wlsrLocation detected
-		frames of type wlsrFrameType on wlsrCurrentChannel which exceeds the
-		configured IDS rate threshold.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AP/AM at wlsrLocation detected
+            frames of type wlsrFrameType on wlsrCurrentChannel which exceeds the
+            configured IDS rate threshold.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrFrameType&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;
-		associateRequest(1)
-		associateResponse(2)
-		reassociateRequest(3)
-		reassociateResponse(4)
-		probeRequest(5)
-		probeResponse(6)
-		beacon(9)
-		atim(10)
-		disassociate(11)
-		auth(12)
-		deauth(13)
-	&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrFrameType&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;
+            associateRequest(1)
+            associateResponse(2)
+            reassociateRequest(3)
+            reassociateResponse(4)
+            probeRequest(5)
+            probeResponse(6)
+            beacon(9)
+            atim(10)
+            disassociate(11)
+            auth(12)
+            deauth(13)
+            &lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrChannelRateAnomaly trap received
-	wlsrFrameType=%parm[#1]%
-	wlsrLocation=%parm[#2]%
-	wlsrCurrentChannel=%parm[#3]%&lt;/p&gt;</logmsg>
+            wlsrChannelRateAnomaly trap received
+            wlsrFrameType=%parm[#1]%
+            wlsrLocation=%parm[#2]%
+            wlsrCurrentChannel=%parm[#3]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
         <varbindsdecode>
             <parmid>parm[#1]</parmid>
@@ -1300,44 +1300,44 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrNodeRateAnomaly</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrNodeRateAnomaly</event-label>
         <descr>&lt;p&gt;
-		This trap indicates that an AP/AM at wlsrLocation detected
-		frames of type wlsrFrameType transmitted by node wlsrNodeMac 
-		which exceeds the configured IDS rate threshold.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AP/AM at wlsrLocation detected
+            frames of type wlsrFrameType transmitted by node wlsrNodeMac
+            which exceeds the configured IDS rate threshold.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrFrameType&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;
-		associateRequest(1)
-		associateResponse(2)
-		reassociateRequest(3)
-		reassociateResponse(4)
-		probeRequest(5)
-		probeResponse(6)
-		beacon(9)
-		atim(10)
-		disassociate(11)
-		auth(12)
-		deauth(13)
-	&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrFrameType&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;
+            associateRequest(1)
+            associateResponse(2)
+            reassociateRequest(3)
+            reassociateResponse(4)
+            probeRequest(5)
+            probeResponse(6)
+            beacon(9)
+            atim(10)
+            disassociate(11)
+            auth(12)
+            deauth(13)
+            &lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrRSSI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrRSSI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrNodeRateAnomaly trap received
-	wlsrFrameType=%parm[#1]%
-	wlsrNodeMac=%parm[#2]%
-	wlsrRSSI=%parm[#3]%
-	wlsrLocation=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrNodeRateAnomaly trap received
+            wlsrFrameType=%parm[#1]%
+            wlsrNodeMac=%parm[#2]%
+            wlsrRSSI=%parm[#3]%
+            wlsrLocation=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
         <varbindsdecode>
             <parmid>parm[#1]</parmid>
@@ -1372,22 +1372,22 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrEAPRateAnomaly</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrEAPRateAnomaly</event-label>
         <descr>&lt;p&gt;
-		This trap indicates that the number of EAP Handshake packets received 
-		by an AP/AM at wlsrLocation exceeds the configured IDS EAP Handshake 
-		rate.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that the number of EAP Handshake packets received
+            by an AP/AM at wlsrLocation exceeds the configured IDS EAP Handshake
+            rate.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrEAPRateAnomaly trap received
-	wlsrLocation=%parm[#1]%
-	wlsrCurrentChannel=%parm[#2]%&lt;/p&gt;</logmsg>
+            wlsrEAPRateAnomaly trap received
+            wlsrLocation=%parm[#1]%
+            wlsrCurrentChannel=%parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1408,21 +1408,21 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrSignalAnomaly</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrSignalAnomaly</event-label>
         <descr>&lt;p&gt;
-		This trap indicates that an AP/AM at wlsrLocation detected a Signal 
-		Anomaly on wlsrCurrentChannel.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AP/AM at wlsrLocation detected a Signal
+            Anomaly on wlsrCurrentChannel.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrSignalAnomaly trap received
-	wlsrLocation=%parm[#1]%
-	wlsrCurrentChannel=%parm[#2]%&lt;/p&gt;</logmsg>
+            wlsrSignalAnomaly trap received
+            wlsrLocation=%parm[#1]%
+            wlsrCurrentChannel=%parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1443,27 +1443,27 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrSequenceNumberAnomaly</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrSequenceNumberAnomaly</event-label>
         <descr>&lt;p&gt;
-		This trap indicates that an AP/AM at wlsrLocation received packets
-		which exceeds the acceptable sequence number difference. The acceptable
-		sequence number difference is an IDS Configuration object.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AP/AM at wlsrLocation received packets
+            which exceeds the acceptable sequence number difference. The acceptable
+            sequence number difference is an IDS Configuration object.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrSourceMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrSourceMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrRSSI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrRSSI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrSequenceNumberAnomaly trap received
-	wlsrSourceMac=%parm[#1]%
-	wlsrRSSI=%parm[#2]%
-	wlsrLocation=%parm[#3]%&lt;/p&gt;</logmsg>
+            wlsrSequenceNumberAnomaly trap received
+            wlsrSourceMac=%parm[#1]%
+            wlsrRSSI=%parm[#2]%
+            wlsrLocation=%parm[#3]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1484,42 +1484,42 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrDisconnectStationAttack</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrDisconnectStationAttack</event-label>
         <descr>&lt;p&gt;
-		This trap indicates that an AP/AM detected a station Disconnect attack.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AP/AM detected a station Disconnect attack.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrFrameType&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;
-		associateRequest(1)
-		associateResponse(2)
-		reassociateRequest(3)
-		reassociateResponse(4)
-		probeRequest(5)
-		probeResponse(6)
-		beacon(9)
-		atim(10)
-		disassociate(11)
-		auth(12)
-		deauth(13)
-	&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrFrameType&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;
+            associateRequest(1)
+            associateResponse(2)
+            reassociateRequest(3)
+            reassociateResponse(4)
+            probeRequest(5)
+            probeResponse(6)
+            beacon(9)
+            atim(10)
+            disassociate(11)
+            auth(12)
+            deauth(13)
+            &lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrSourceMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrSourceMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrRSSI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrRSSI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrDisconnectStationAttack trap received
-	wlsrFrameType=%parm[#1]%
-	wlsrSourceMac=%parm[#2]%
-	wlsrRSSI=%parm[#3]%
-	wlsrLocation=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrDisconnectStationAttack trap received
+            wlsrFrameType=%parm[#1]%
+            wlsrSourceMac=%parm[#2]%
+            wlsrRSSI=%parm[#3]%
+            wlsrLocation=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
         <varbindsdecode>
             <parmid>parm[#1]</parmid>
@@ -1554,16 +1554,16 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrApFloodAttack</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrApFloodAttack</event-label>
         <descr>&lt;p&gt;
-		This trap is triggered when the number of spurious AP's detected by 
-		an AP/AM at wlsrLocation exceeds the configured IDS threshold.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap is triggered when the number of spurious AP's detected by
+            an AP/AM at wlsrLocation exceeds the configured IDS threshold.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrApFloodAttack trap received
-	wlsrLocation=%parm[#1]%&lt;/p&gt;</logmsg>
+            wlsrApFloodAttack trap received
+            wlsrLocation=%parm[#1]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1584,37 +1584,37 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrAdhocNetwork</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrAdhocNetwork</event-label>
         <descr>&lt;p&gt;
-		This trap indicates that an AP/AM at wlsrLocation detected an Adhoc 
-		Network. Node wlsrSourceMac is connected to an adhoc AP
-		wlsrTargetApBSSID with wlsrTargetApSSID ssid.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AP/AM at wlsrLocation detected an Adhoc
+            Network. Node wlsrSourceMac is connected to an adhoc AP
+            wlsrTargetApBSSID with wlsrTargetApSSID ssid.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrSourceMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrSourceMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrRSSI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrRSSI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrAdhocNetwork trap received
-	wlsrSourceMac=%parm[#1]%
-	wlsrTargetApBSSID=%parm[#2]%
-	wlsrTargetApSSID=%parm[#3]%
-	wlsrRSSI=%parm[#4]%
-	wlsrLocation=%parm[#5]%&lt;/p&gt;</logmsg>
+            wlsrAdhocNetwork trap received
+            wlsrSourceMac=%parm[#1]%
+            wlsrTargetApBSSID=%parm[#2]%
+            wlsrTargetApSSID=%parm[#3]%
+            wlsrRSSI=%parm[#4]%
+            wlsrLocation=%parm[#5]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1635,32 +1635,32 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrWirelessBridge</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrWirelessBridge</event-label>
         <descr>&lt;p&gt;
-		This trap indicates that an AP/AM at wlsrLocation detected a Wireless 
-		Bridge. The detected bridge is between wlsrSourceMac and 
-		wlsrReceiverMac.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AP/AM at wlsrLocation detected a Wireless
+            Bridge. The detected bridge is between wlsrSourceMac and
+            wlsrReceiverMac.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTransmitterMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTransmitterMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrReceiverMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrReceiverMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrRSSI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrRSSI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrWirelessBridge trap received
-	wlsrTransmitterMac=%parm[#1]%
-	wlsrReceiverMac=%parm[#2]%
-	wlsrRSSI=%parm[#3]%
-	wlsrLocation=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrWirelessBridge trap received
+            wlsrTransmitterMac=%parm[#1]%
+            wlsrReceiverMac=%parm[#2]%
+            wlsrRSSI=%parm[#3]%
+            wlsrLocation=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1681,36 +1681,36 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrInvalidMacOUI</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrInvalidMacOUI</event-label>
         <descr>&lt;p&gt;
-		This trap indicates that an AP/AM at wlsrLocation detected an Invalid
-		MAC OUI in transmission from the Node wlsrNodeMac. The invalid mac is
-		the &lt;wlsrAddressType&gt;.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AP/AM at wlsrLocation detected an Invalid
+            MAC OUI in transmission from the Node wlsrNodeMac. The invalid mac is
+            the &lt;wlsrAddressType&gt;.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrAddressType&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;
-		srcAddress(1)
-		dstAddress(2)
-		bssid(3)
-	&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrAddressType&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;
+            srcAddress(1)
+            dstAddress(2)
+            bssid(3)
+            &lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrRSSI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrRSSI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrInvalidMacOUI trap received
-	wlsrAddressType=%parm[#1]%
-	wlsrNodeMac=%parm[#2]%
-	wlsrRSSI=%parm[#3]%
-	wlsrLocation=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrInvalidMacOUI trap received
+            wlsrAddressType=%parm[#1]%
+            wlsrNodeMac=%parm[#2]%
+            wlsrRSSI=%parm[#3]%
+            wlsrLocation=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
         <varbindsdecode>
             <parmid>parm[#1]</parmid>
@@ -1737,32 +1737,32 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrLoadbalancingDisabled</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrLoadbalancingDisabled</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an AM/AP located at 
-			wlsrLocation is reporting that an AP with BSSID wlsrTargetApBSSID 
-			has disabled Load balancing.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AM/AP located at
+            wlsrLocation is reporting that an AP with BSSID wlsrTargetApBSSID
+            has disabled Load balancing.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrLoadbalancingDisabled trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrTargetApChannel=%parm[#3]%
-	wlsrLocation=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrLoadbalancingDisabled trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrTargetApChannel=%parm[#3]%
+            wlsrLocation=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1783,31 +1783,31 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrWEPMisconfiguration</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrWEPMisconfiguration</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an Access Point has bad WEP
-			configuration.
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an Access Point has bad WEP
+            configuration.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrWEPMisconfiguration trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrLocation=%parm[#3]%
-	wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsrWEPMisconfiguration trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrLocation=%parm[#3]%
+            wlsrCurrentChannel=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1828,36 +1828,36 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrStaRepeatWEPIVViolation</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrStaRepeatWEPIVViolation</event-label>
         <descr>&lt;p&gt;
-		This trap indicates that an AP/AM detected a Repeat WEP-IV violation.
-		for a Station
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AP/AM detected a Repeat WEP-IV violation.
+            for a Station
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrStaRepeatWEPIVViolation trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrNodeMac=%parm[#3]%
-	wlsrLocation=%parm[#4]%
-	wlsrCurrentChannel=%parm[#5]%&lt;/p&gt;</logmsg>
+            wlsrStaRepeatWEPIVViolation trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrNodeMac=%parm[#3]%
+            wlsrLocation=%parm[#4]%
+            wlsrCurrentChannel=%parm[#5]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1878,36 +1878,36 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrStaWeakWEPIVViolation</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrStaWeakWEPIVViolation</event-label>
         <descr>&lt;p&gt;
-		This trap indicates that an AP/AM detected a Weak WEP-IV violation.
-		for a Station
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AP/AM detected a Weak WEP-IV violation.
+            for a Station
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrStaWeakWEPIVViolation trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrNodeMac=%parm[#3]%
-	wlsrLocation=%parm[#4]%
-	wlsrCurrentChannel=%parm[#5]%&lt;/p&gt;</logmsg>
+            wlsrStaWeakWEPIVViolation trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrNodeMac=%parm[#3]%
+            wlsrLocation=%parm[#4]%
+            wlsrCurrentChannel=%parm[#5]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1928,44 +1928,44 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrStaAssociatedToUnsecureAp</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrStaAssociatedToUnsecureAp</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that a station with wlsrNodeMac associated
-			with an Unsecure Access Point wlsrTargetApBSSID. This is detected
-			by an Air Monitor located at wlsrLocation on channel 
-			wlsrCurrentChannel. 
+            This trap indicates that a station with wlsrNodeMac associated
+            with an Unsecure Access Point wlsrTargetApBSSID. This is detected
+            by an Air Monitor located at wlsrLocation on channel
+            wlsrCurrentChannel.
 
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrNodeMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrRogueInfoURL&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#6]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrRogueInfoURL&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#6]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrStaAssociatedToUnsecureAp trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrLocation=%parm[#3]%
-	wlsrCurrentChannel=%parm[#4]%
-	wlsrNodeMac=%parm[#5]%
-	wlsrRogueInfoURL=%parm[#6]%&lt;/p&gt;</logmsg>
+            wlsrStaAssociatedToUnsecureAp trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrLocation=%parm[#3]%
+            wlsrCurrentChannel=%parm[#4]%
+            wlsrNodeMac=%parm[#5]%
+            wlsrRogueInfoURL=%parm[#6]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1986,36 +1986,36 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrAdhocNetworkBridgeDetected</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrAdhocNetworkBridgeDetected</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an AM has detected an Adhoc
-			network that is bridging to a wired network
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            This trap indicates that an AM has detected an Adhoc
+            network that is bridging to a wired network
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrSourceMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrSourceMac&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrAdhocNetworkBridgeDetected trap received
-	wlsrSourceMac=%parm[#1]%
-	wlsrTargetApBSSID=%parm[#2]%
-	wlsrTargetApSSID=%parm[#3]%
-	wlsrLocation=%parm[#4]%
-	wlsrCurrentChannel=%parm[#5]%&lt;/p&gt;</logmsg>
+            wlsrAdhocNetworkBridgeDetected trap received
+            wlsrSourceMac=%parm[#1]%
+            wlsrTargetApBSSID=%parm[#2]%
+            wlsrTargetApSSID=%parm[#3]%
+            wlsrLocation=%parm[#4]%
+            wlsrCurrentChannel=%parm[#5]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -2036,38 +2036,38 @@
         <uei>uei.opennms.org/vendor/aruba/ap/traps/wlsrInterferingApDetected</uei>
         <event-label>WLSR-AP-MIB defined trap event: wlsrInterferingApDetected</event-label>
         <descr>&lt;p&gt;
-			This trap indicates that an Interfering Access Point is detected
-			by an Air Monitor located at wlsrLocation on channel 
-			wlsrCurrentChannel. 
+            This trap indicates that an Interfering Access Point is detected
+            by an Air Monitor located at wlsrLocation on channel
+            wlsrCurrentChannel.
 
-		&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApBSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrTargetApSSID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsrCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsrInterferingAPInfoURL&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsrInterferingAPInfoURL&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#5]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsrInterferingApDetected trap received
-	wlsrTargetApBSSID=%parm[#1]%
-	wlsrTargetApSSID=%parm[#2]%
-	wlsrLocation=%parm[#3]%
-	wlsrCurrentChannel=%parm[#4]%
-	wlsrInterferingAPInfoURL=%parm[#5]%&lt;/p&gt;</logmsg>
+            wlsrInterferingApDetected trap received
+            wlsrTargetApBSSID=%parm[#1]%
+            wlsrTargetApSSID=%parm[#2]%
+            wlsrLocation=%parm[#3]%
+            wlsrCurrentChannel=%parm[#4]%
+            wlsrInterferingAPInfoURL=%parm[#5]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
 </events>

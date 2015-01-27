@@ -18,13 +18,13 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxSwitchIPChanged</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxSwitchIPChanged</event-label>
         <descr>&lt;p&gt;A trap which indicates that the switch IP address has changed.&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxSwitchIp&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxSwitchIp&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxSwitchIPChanged trap received
-	wlsxSwitchIp=%parm[#1]%&lt;/p&gt;</logmsg>
+            wlsxSwitchIPChanged trap received
+            wlsxSwitchIp=%parm[#1]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -44,19 +44,19 @@
         </mask>
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxSwitchRoleChange</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxSwitchRoleChange</event-label>
-        <descr>&lt;p&gt;A trap which indicates that the role of the switch has changed in 
-			the Domain.&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+        <descr>&lt;p&gt;A trap which indicates that the role of the switch has changed in
+            the Domain.&lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxSwitchRole&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;
-		master(1)
-		local(2)
-		standbymaster(3)
-	&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxSwitchRole&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;
+            master(1)
+            local(2)
+            standbymaster(3)
+            &lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxSwitchRoleChange trap received
-	wlsxSwitchRole=%parm[#1]%&lt;/p&gt;</logmsg>
+            wlsxSwitchRoleChange trap received
+            wlsxSwitchRole=%parm[#1]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
         <varbindsdecode>
             <parmid>parm[#1]</parmid>
@@ -83,15 +83,15 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxUserEntryCreated</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxUserEntryCreated</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that a New user is created.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that a New user is created.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	userPhyAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            userPhyAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxUserEntryCreated trap received
-	userPhyAddress=%parm[#1]%&lt;/p&gt;</logmsg>
+            wlsxUserEntryCreated trap received
+            userPhyAddress=%parm[#1]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -112,15 +112,15 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxUserEntryDeleted</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxUserEntryDeleted</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that a user is deleted.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that a user is deleted.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	userPhyAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            userPhyAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxUserEntryDeleted trap received
-	userPhyAddress=%parm[#1]%&lt;/p&gt;</logmsg>
+            wlsxUserEntryDeleted trap received
+            userPhyAddress=%parm[#1]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -141,37 +141,37 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxUserEntryAuthenticated</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxUserEntryAuthenticated</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that a user is Authenticated.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that a user is Authenticated.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	userPhyAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            userPhyAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	userName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            userName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	userAuthenticationMethod&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;
-		none(1)
-		other(2)
-		web(3)
-		dot1x(4)
-		vpn(5)
-		mac(6)
-	&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            userAuthenticationMethod&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;
+            none(1)
+            other(2)
+            web(3)
+            dot1x(4)
+            vpn(5)
+            mac(6)
+            &lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	userRole&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            userRole&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxUserEntryAuthenticated trap received
-	userPhyAddress=%parm[#1]%
-	userName=%parm[#2]%
-	userAuthenticationMethod=%parm[#3]%
-	userRole=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsxUserEntryAuthenticated trap received
+            userPhyAddress=%parm[#1]%
+            userName=%parm[#2]%
+            userAuthenticationMethod=%parm[#3]%
+            userRole=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
         <varbindsdecode>
             <parmid>parm[#3]</parmid>
@@ -201,15 +201,15 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxUserEntryDeAuthenticated</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxUserEntryDeAuthenticated</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that a user is Deauthenticated.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that a user is Deauthenticated.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	userPhyAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            userPhyAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxUserEntryDeAuthenticated trap received
-	userPhyAddress=%parm[#1]%&lt;/p&gt;</logmsg>
+            wlsxUserEntryDeAuthenticated trap received
+            userPhyAddress=%parm[#1]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -230,15 +230,15 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxUserAuthenticationFailed</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxUserAuthenticationFailed</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that a user authentication has failed.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that a user authentication has failed.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	userPhyAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            userPhyAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxUserAuthenticationFailed trap received
-	userPhyAddress=%parm[#1]%&lt;/p&gt;</logmsg>
+            wlsxUserAuthenticationFailed trap received
+            userPhyAddress=%parm[#1]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -259,16 +259,16 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxAuthServerReqTimedOut</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxAuthServerReqTimedOut</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that the authentication server request 
-			timed out.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that the authentication server request
+            timed out.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxAuthServerName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxAuthServerName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxAuthServerReqTimedOut trap received
-	wlsxAuthServerName=%parm[#1]%&lt;/p&gt;</logmsg>
+            wlsxAuthServerReqTimedOut trap received
+            wlsxAuthServerName=%parm[#1]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -289,21 +289,21 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxAuthServerTimedOut</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxAuthServerTimedOut</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that the authentication server 
-			timed out.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that the authentication server
+            timed out.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxAuthServerName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsxAuthServerName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxAuthServerTimeout&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxAuthServerTimeout&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxAuthServerTimedOut trap received
-	wlsxAuthServerName=%parm[#1]%
-	wlsxAuthServerTimeout=%parm[#2]%&lt;/p&gt;</logmsg>
+            wlsxAuthServerTimedOut trap received
+            wlsxAuthServerName=%parm[#1]%
+            wlsxAuthServerTimeout=%parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -324,15 +324,15 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxAuthServerIsUp</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxAuthServerIsUp</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that the authentication server is up.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that the authentication server is up.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxAuthServerName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxAuthServerName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxAuthServerIsUp trap received
-	wlsxAuthServerName=%parm[#1]%&lt;/p&gt;</logmsg>
+            wlsxAuthServerIsUp trap received
+            wlsxAuthServerName=%parm[#1]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -353,11 +353,11 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxAuthMaxUserEntries</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxAuthMaxUserEntries</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that the User Entries table is full and
-			cannot add any more entries.
-			&lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
+            A trap which indicates that the User Entries table is full and
+            cannot add any more entries.
+            &lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxAuthMaxUserEntries trap received&lt;/p&gt;</logmsg>
+            wlsxAuthMaxUserEntries trap received&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -378,11 +378,11 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxAuthMaxAclEntries</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxAuthMaxAclEntries</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that the Acl Entries table is full and
-			cannot add any more entries.
-			&lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
+            A trap which indicates that the Acl Entries table is full and
+            cannot add any more entries.
+            &lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxAuthMaxAclEntries trap received&lt;/p&gt;</logmsg>
+            wlsxAuthMaxAclEntries trap received&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -403,11 +403,11 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxAuthMaxBWContracts</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxAuthMaxBWContracts</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that the switch reached the maximum number of
-			configurable Bandwidth contracts.
-			&lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
+            A trap which indicates that the switch reached the maximum number of
+            configurable Bandwidth contracts.
+            &lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxAuthMaxBWContracts trap received&lt;/p&gt;</logmsg>
+            wlsxAuthMaxBWContracts trap received&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -428,10 +428,10 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxPowerSupplyFailure</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxPowerSupplyFailure</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that the power supply has failed.
-			&lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
+            A trap which indicates that the power supply has failed.
+            &lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxPowerSupplyFailure trap received&lt;/p&gt;</logmsg>
+            wlsxPowerSupplyFailure trap received&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -452,15 +452,15 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxFanFailure</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxFanFailure</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that the fan has failed.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that the fan has failed.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxFanNumber&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxFanNumber&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxFanFailure trap received
-	wlsxFanNumber=%parm[#1]%&lt;/p&gt;</logmsg>
+            wlsxFanFailure trap received
+            wlsxFanNumber=%parm[#1]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -481,21 +481,21 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxOutOfRangeVoltage</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxOutOfRangeVoltage</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that the switch received out of range 
-			voltage.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that the switch received out of range
+            voltage.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxVoltageType&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsxVoltageType&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxVoltageValue&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxVoltageValue&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxOutOfRangeVoltage trap received
-	wlsxVoltageType=%parm[#1]%
-	wlsxVoltageValue=%parm[#2]%&lt;/p&gt;</logmsg>
+            wlsxOutOfRangeVoltage trap received
+            wlsxVoltageType=%parm[#1]%
+            wlsxVoltageValue=%parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -516,15 +516,15 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxOutOfRangeTemperature</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxOutOfRangeTemperature</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that the Temperature is out of bounds.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that the Temperature is out of bounds.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxTemperatureValue&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxTemperatureValue&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxOutOfRangeTemperature trap received
-	wlsxTemperatureValue=%parm[#1]%&lt;/p&gt;</logmsg>
+            wlsxOutOfRangeTemperature trap received
+            wlsxTemperatureValue=%parm[#1]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -545,20 +545,20 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxLCInserted</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxLCInserted</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that a Line card is inserted.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that a Line card is inserted.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxLineCardNumber&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsxLineCardNumber&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxSlotNumber&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxSlotNumber&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxLCInserted trap received
-	wlsxLineCardNumber=%parm[#1]%
-	wlsxSlotNumber=%parm[#2]%&lt;/p&gt;</logmsg>
+            wlsxLCInserted trap received
+            wlsxLineCardNumber=%parm[#1]%
+            wlsxSlotNumber=%parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -579,10 +579,10 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxSCInserted</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxSCInserted</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that a supervisory card is inserted.
-			&lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
+            A trap which indicates that a supervisory card is inserted.
+            &lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxSCInserted trap received&lt;/p&gt;</logmsg>
+            wlsxSCInserted trap received&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -603,10 +603,10 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxGBICInserted</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxGBICInserted</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that a GBIC is inserted in a line card. 
-			&lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
+            A trap which indicates that a GBIC is inserted in a line card.
+            &lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxGBICInserted trap received&lt;/p&gt;</logmsg>
+            wlsxGBICInserted trap received&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -627,15 +627,15 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxProcessDied</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxProcessDied</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that a process has died.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that a process has died.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxProcessName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxProcessName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxProcessDied trap received
-	wlsxProcessName=%parm[#1]%&lt;/p&gt;</logmsg>
+            wlsxProcessDied trap received
+            wlsxProcessName=%parm[#1]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -656,16 +656,16 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxProcessExceedsMemoryLimits</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxProcessExceedsMemoryLimits</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that a process is consuming large
-			amounts of memory.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that a process is consuming large
+            amounts of memory.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxProcessName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxProcessName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxProcessExceedsMemoryLimits trap received
-	wlsxProcessName=%parm[#1]%&lt;/p&gt;</logmsg>
+            wlsxProcessExceedsMemoryLimits trap received
+            wlsxProcessName=%parm[#1]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -686,10 +686,10 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxLowOnFlashSpace</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxLowOnFlashSpace</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that the switch is running low on flash space.
-			&lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
+            A trap which indicates that the switch is running low on flash space.
+            &lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxLowOnFlashSpace trap received&lt;/p&gt;</logmsg>
+            wlsxLowOnFlashSpace trap received&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -710,10 +710,10 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxLowMemory</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxLowMemory</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that the system free memory is low.
-			&lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
+            A trap which indicates that the system free memory is low.
+            &lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxLowMemory trap received&lt;/p&gt;</logmsg>
+            wlsxLowMemory trap received&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -734,10 +734,10 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxFanTrayRemoved</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxFanTrayRemoved</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that the fan tray is removed.
-			&lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
+            A trap which indicates that the fan tray is removed.
+            &lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxFanTrayRemoved trap received&lt;/p&gt;</logmsg>
+            wlsxFanTrayRemoved trap received&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -758,10 +758,10 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxFanTrayInserted</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxFanTrayInserted</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that the fan tray is removed.
-			&lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
+            A trap which indicates that the fan tray is removed.
+            &lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxFanTrayInserted trap received&lt;/p&gt;</logmsg>
+            wlsxFanTrayInserted trap received&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -782,20 +782,20 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxLCRemoved</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxLCRemoved</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that a Line card is removed.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that a Line card is removed.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxLineCardNumber&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsxLineCardNumber&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxSlotNumber&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxSlotNumber&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxLCRemoved trap received
-	wlsxLineCardNumber=%parm[#1]%
-	wlsxSlotNumber=%parm[#2]%&lt;/p&gt;</logmsg>
+            wlsxLCRemoved trap received
+            wlsxLineCardNumber=%parm[#1]%
+            wlsxSlotNumber=%parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -816,10 +816,10 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxSCRemoved</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxSCRemoved</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that a supervisory card is removed.
-			&lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
+            A trap which indicates that a supervisory card is removed.
+            &lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxSCRemoved trap received&lt;/p&gt;</logmsg>
+            wlsxSCRemoved trap received&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -840,10 +840,10 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxPowerSupplyMissing</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxPowerSupplyMissing</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that the power supply is missing.
-			&lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
+            A trap which indicates that the power supply is missing.
+            &lt;/p&gt;&lt;table&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxPowerSupplyMissing trap received&lt;/p&gt;</logmsg>
+            wlsxPowerSupplyMissing trap received&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -864,21 +864,21 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxAccessPointIsUp</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxAccessPointIsUp</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that an Access point at Location 
-			apLocation and Address apIpAddress is up.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that an Access point at Location
+            apLocation and Address apIpAddress is up.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	apLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            apLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	apIpAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            apIpAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxAccessPointIsUp trap received
-	apLocation=%parm[#1]%
-	apIpAddress=%parm[#2]%&lt;/p&gt;</logmsg>
+            wlsxAccessPointIsUp trap received
+            apLocation=%parm[#1]%
+            apIpAddress=%parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -899,21 +899,21 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxAccessPointIsDown</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxAccessPointIsDown</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that an Access point at Location 
-			apLocation and Address apIpAddress is down.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that an Access point at Location
+            apLocation and Address apIpAddress is down.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	apLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            apLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	apIpAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            apIpAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxAccessPointIsDown trap received
-	apLocation=%parm[#1]%
-	apIpAddress=%parm[#2]%&lt;/p&gt;</logmsg>
+            wlsxAccessPointIsDown trap received
+            apLocation=%parm[#1]%
+            apIpAddress=%parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -934,26 +934,26 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxCoverageHoleDetected</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxCoverageHoleDetected</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that an Access point at Location
-			apLocation and Address apIpAddress has detected a Coverage Hole.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that an Access point at Location
+            apLocation and Address apIpAddress has detected a Coverage Hole.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	apLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            apLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	apIpAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            apIpAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxStationMacAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxStationMacAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxCoverageHoleDetected trap received
-	apLocation=%parm[#1]%
-	apIpAddress=%parm[#2]%
-	wlsxStationMacAddress=%parm[#3]%&lt;/p&gt;</logmsg>
+            wlsxCoverageHoleDetected trap received
+            apLocation=%parm[#1]%
+            apIpAddress=%parm[#2]%
+            wlsxStationMacAddress=%parm[#3]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -974,27 +974,27 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxChannelChanged</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxChannelChanged</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that an Access point at Location 
-			apLocation and Address apIpAddress has changed the channel to 
-			apCurrentChannel.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that an Access point at Location
+            apLocation and Address apIpAddress has changed the channel to
+            apCurrentChannel.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	apLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            apLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	apIpAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            apIpAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	apCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            apCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxChannelChanged trap received
-	apLocation=%parm[#1]%
-	apIpAddress=%parm[#2]%
-	apCurrentChannel=%parm[#3]%&lt;/p&gt;</logmsg>
+            wlsxChannelChanged trap received
+            apLocation=%parm[#1]%
+            apIpAddress=%parm[#2]%
+            apCurrentChannel=%parm[#3]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1015,32 +1015,32 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxStationAddedToBlackList</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxStationAddedToBlackList</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that a station with address
-			wlsxStationMacAddress is black listed for 
-			wlsxStationBlackListReason reason.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that a station with address
+            wlsxStationMacAddress is black listed for
+            wlsxStationBlackListReason reason.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxStationMacAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsxStationMacAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxStationBlackListReason&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;
-		userDefined(1)
-		mitmAttack(2)
-		authFailure(3)
-		pingFlood(4)
-		sessionFlood(5)
-		synFlood(6)
-		sessionBlacklist(7)
-		ipSpoofing(8)
-		other(100)
-	&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxStationBlackListReason&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;
+            userDefined(1)
+            mitmAttack(2)
+            authFailure(3)
+            pingFlood(4)
+            sessionFlood(5)
+            synFlood(6)
+            sessionBlacklist(7)
+            ipSpoofing(8)
+            other(100)
+            &lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxStationAddedToBlackList trap received
-	wlsxStationMacAddress=%parm[#1]%
-	wlsxStationBlackListReason=%parm[#2]%&lt;/p&gt;</logmsg>
+            wlsxStationAddedToBlackList trap received
+            wlsxStationMacAddress=%parm[#1]%
+            wlsxStationBlackListReason=%parm[#2]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
         <varbindsdecode>
             <parmid>parm[#2]</parmid>
@@ -1073,16 +1073,16 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxStationRemovedFromBlackList</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxStationRemovedFromBlackList</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that a station with address
-			wlsxStationMacAddress is removed from black list.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that a station with address
+            wlsxStationMacAddress is removed from black list.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxStationMacAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxStationMacAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxStationRemovedFromBlackList trap received
-	wlsxStationMacAddress=%parm[#1]%&lt;/p&gt;</logmsg>
+            wlsxStationRemovedFromBlackList trap received
+            wlsxStationMacAddress=%parm[#1]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1103,25 +1103,25 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxIpSpoofingDetected</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxIpSpoofingDetected</event-label>
         <descr>&lt;p&gt;
-			A trap indicating that the switch detected IP Spoofing.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap indicating that the switch detected IP Spoofing.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxSpoofedIpAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsxSpoofedIpAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxSpoofedOldPhyAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsxSpoofedOldPhyAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxSpoofedNewPhyAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxSpoofedNewPhyAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxIpSpoofingDetected trap received
-	wlsxSpoofedIpAddress=%parm[#1]%
-	wlsxSpoofedOldPhyAddress=%parm[#2]%
-	wlsxSpoofedNewPhyAddress=%parm[#3]%&lt;/p&gt;</logmsg>
+            wlsxIpSpoofingDetected trap received
+            wlsxSpoofedIpAddress=%parm[#1]%
+            wlsxSpoofedOldPhyAddress=%parm[#2]%
+            wlsxSpoofedNewPhyAddress=%parm[#3]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1142,33 +1142,33 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxDBCommunicationFailure</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxDBCommunicationFailure</event-label>
         <descr>&lt;p&gt;
-			A trap to indicate that communication with Database failed.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap to indicate that communication with Database failed.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxDBName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsxDBName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxDBUserName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsxDBUserName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxDBIpAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsxDBIpAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxDBType&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;
-		mssql(1)
-		mysql(2)
-	&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxDBType&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;
+            mssql(1)
+            mysql(2)
+            &lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxDBCommunicationFailure trap received
-	wlsxDBName=%parm[#1]%
-	wlsxDBUserName=%parm[#2]%
-	wlsxDBIpAddress=%parm[#3]%
-	wlsxDBType=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsxDBCommunicationFailure trap received
+            wlsxDBName=%parm[#1]%
+            wlsxDBUserName=%parm[#2]%
+            wlsxDBIpAddress=%parm[#3]%
+            wlsxDBType=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
         <varbindsdecode>
             <parmid>parm[#4]</parmid>
@@ -1194,29 +1194,29 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxVrrpStateChange</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxVrrpStateChange</event-label>
         <descr>&lt;p&gt;
-				A trap which indicates that VRRP State has changed on the switch.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that VRRP State has changed on the switch.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxVrID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsxVrID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxVrMasterIp&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsxVrMasterIp&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxVrrpOperState&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;
-		initialize(1)
-		backup(2)
-		master(3)
-	&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxVrrpOperState&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;
+            initialize(1)
+            backup(2)
+            master(3)
+            &lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxVrrpStateChange trap received
-	wlsxVrID=%parm[#1]%
-	wlsxVrMasterIp=%parm[#2]%
-	wlsxVrrpOperState=%parm[#3]%&lt;/p&gt;</logmsg>
+            wlsxVrrpStateChange trap received
+            wlsxVrID=%parm[#1]%
+            wlsxVrMasterIp=%parm[#2]%
+            wlsxVrrpOperState=%parm[#3]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
         <varbindsdecode>
             <parmid>parm[#3]</parmid>
@@ -1243,33 +1243,33 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxAPRadioAttributesChanged</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxAPRadioAttributesChanged</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates changes in the Radio attributes of an 
-			Access Point at location apLocation and address apIpAddress.
-			Ap channel is apCurrentChannel, and Transmit power is 
-			apTxPower.
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates changes in the Radio attributes of an
+            Access Point at location apLocation and address apIpAddress.
+            Ap channel is apCurrentChannel, and Transmit power is
+            apTxPower.
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	apLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            apLocation&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	apIpAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            apIpAddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	apCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            apCurrentChannel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxApTxPower&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxApTxPower&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#4]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxAPRadioAttributesChanged trap received
-	apLocation=%parm[#1]%
-	apIpAddress=%parm[#2]%
-	apCurrentChannel=%parm[#3]%
-	wlsxApTxPower=%parm[#4]%&lt;/p&gt;</logmsg>
+            wlsxAPRadioAttributesChanged trap received
+            apLocation=%parm[#1]%
+            apIpAddress=%parm[#2]%
+            apCurrentChannel=%parm[#3]%
+            wlsxApTxPower=%parm[#4]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1290,26 +1290,26 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxESIServerUp</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxESIServerUp</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that a ESI server &lt;wlsxESIServerName&gt; in 
-			group &lt;wlsxESIServerGrpName&gt; with &lt;wlsxESIServerIpaddress&gt; is up
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that a ESI server &lt;wlsxESIServerName&gt; in
+            group &lt;wlsxESIServerGrpName&gt; with &lt;wlsxESIServerIpaddress&gt; is up
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxESIServerGrpName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsxESIServerGrpName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxESIServerName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsxESIServerName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxESIServerIpaddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxESIServerIpaddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxESIServerUp trap received
-	wlsxESIServerGrpName=%parm[#1]%
-	wlsxESIServerName=%parm[#2]%
-	wlsxESIServerIpaddress=%parm[#3]%&lt;/p&gt;</logmsg>
+            wlsxESIServerUp trap received
+            wlsxESIServerGrpName=%parm[#1]%
+            wlsxESIServerName=%parm[#2]%
+            wlsxESIServerIpaddress=%parm[#3]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1330,26 +1330,26 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxESIServerDown</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxESIServerDown</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that a ESI server &lt;wlsxESIServerName&gt; in 
-			group &lt;wlsxESIServerGrpName&gt; with &lt;wlsxESIServerIpaddress&gt; is down
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that a ESI server &lt;wlsxESIServerName&gt; in
+            group &lt;wlsxESIServerGrpName&gt; with &lt;wlsxESIServerIpaddress&gt; is down
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxESIServerGrpName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsxESIServerGrpName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxESIServerName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            wlsxESIServerName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#2]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxESIServerIpaddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxESIServerIpaddress&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#3]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxESIServerDown trap received
-	wlsxESIServerGrpName=%parm[#1]%
-	wlsxESIServerName=%parm[#2]%
-	wlsxESIServerIpaddress=%parm[#3]%&lt;/p&gt;</logmsg>
+            wlsxESIServerDown trap received
+            wlsxESIServerGrpName=%parm[#1]%
+            wlsxESIServerName=%parm[#2]%
+            wlsxESIServerIpaddress=%parm[#3]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
     <event>
@@ -1370,16 +1370,16 @@
         <uei>uei.opennms.org/vendor/aruba/switch/traps/wlsxLicenseExpiry</uei>
         <event-label>WLSX-SWITCH-MIB defined trap event: wlsxLicenseExpiry</event-label>
         <descr>&lt;p&gt;
-			A trap which indicates that one or more licenses on the
-			switch will expire in &lt;wlsxLicenseDaysRemaining&gt; days
-			&lt;/p&gt;&lt;table&gt;
-	&lt;tr&gt;&lt;td&gt;&lt;b&gt;
+            A trap which indicates that one or more licenses on the
+            switch will expire in &lt;wlsxLicenseDaysRemaining&gt; days
+            &lt;/p&gt;&lt;table&gt;
+            &lt;tr&gt;&lt;td&gt;&lt;b&gt;
 
-	wlsxLicenseDaysRemaining&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
-	%parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            wlsxLicenseDaysRemaining&lt;/b&gt;&lt;/td&gt;&lt;td&gt;
+            %parm[#1]%;&lt;/td&gt;&lt;td&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
         <logmsg dest="logndisplay">&lt;p&gt;
-	wlsxLicenseExpiry trap received
-	wlsxLicenseDaysRemaining=%parm[#1]%&lt;/p&gt;</logmsg>
+            wlsxLicenseExpiry trap received
+            wlsxLicenseDaysRemaining=%parm[#1]%&lt;/p&gt;</logmsg>
         <severity>Indeterminate</severity>
     </event>
 </events>
