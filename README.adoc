@@ -1,4 +1,4 @@
-# Aruba
+= Aruba
 
 OpenNMS configuration for Aruba devices.
 
